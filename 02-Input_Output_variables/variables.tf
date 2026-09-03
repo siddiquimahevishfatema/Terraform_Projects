@@ -1,6 +1,6 @@
 variable "ami" {
  description="Amazon Machine Image value"
- default = "ami-057752b3f1d6c4d6c"
+ default = "ami-07987a01dcdb011ef"
 }
 
 variable "instance_type"{
@@ -10,5 +10,5 @@ variable "instance_type"{
 
 variable "key_pair_name"{
    description="Amazon Key Pair Name"
-   default = "ashokitkeypair"
+   default = "devops_key"
 }
