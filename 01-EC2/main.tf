@@ -1,9 +1,9 @@
 resource "aws_instance" "linux-vm"{	
-	ami = "ami-02e94b011299ef128"
+	ami = "ami-07987a01dcdb011ef"
 	instance_type = "t2.micro"
-	key_name = "ashokitkeypair"
+	key_name = "devops_key"
 	security_groups = ["default"]
 	tags = {
-		Name = "AshokIT-Linux-VM"
+		Name = "Mahevish-Linux-VM"
 	}
 }
